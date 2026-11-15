@@ -1,0 +1,24 @@
+main {
+    margin: auto;
+    min-width: 400px;
+    max-width: 100px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+article {
+    padding: 10px;
+    margin: 20px;
+    line-height: 2em;
+    color: rgb(70, 91, 99);
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+}
+
+abbr {
+    text-decoration: underline;
+}

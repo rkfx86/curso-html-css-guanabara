@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-image: url(imagens/espaco.jpg);
+}
+
+#astro {
+    margin: auto;
+    display: flex;
+    margin-top: 15em;
+    width: 400px;
+}
+

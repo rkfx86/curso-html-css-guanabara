@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: rgb(175, 103, 167);
+}
+p {
+    text-align: center;
+}
+li::before {
+   content: '\2B07 \FE0F';
+}
+li {
+    list-style-type: none;  
+    margin: auto; 
+}
+ul {
+    display: flex;
+   
+}

@@ -1,0 +1,25 @@
+video {
+    display: flex;
+    margin: auto;
+}
+
+iframe {
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(78, 58, 4);
+    padding: 10px
+}
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+body {
+    background-color: beige;
+}

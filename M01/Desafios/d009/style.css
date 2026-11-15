@@ -1,0 +1,48 @@
+main {
+    background-color: rgb(59, 59, 59);
+    margin: auto;
+    min-width: 300;
+    max-width: 1000px;
+    padding: 20px;
+    display: flex;
+    border-radius: 0 0 16px 16px;
+    margin-top: -20px;
+}
+body {
+    background-color: rgb(34, 34, 34);
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    margin: auto;
+    margin-bottom: 3em;
+}
+#table {
+    margin: auto;
+    display: grid;
+}
+
+#t1, #t2 {
+ margin: auto;
+ margin-bottom: 5px;
+}
+h1 {
+    margin-bottom: 2em;
+}
+
+.other-pages {
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.other-pages .g-img {
+    min-height: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

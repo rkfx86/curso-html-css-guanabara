@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Imagens Flexiveis</title>
+</head>
+<body>
+   <main>
+    <article>
+        <h1>Imagem flexivel</h1>
+        <p>Conforme você amplia a largura da tela, a imagem vai se adaptar</p>
+
+        <picture>
+           <source media="(min-width: 1220px)" srcset="imagens/paisagem-g.png">
+
+           <source media="(min-width: 760px)" srcset="imagens/paisagem-m.png">
+
+           <img src="imagens/paisagem-p.png" alt="">
+
+
+        </picture>
+    </article>
+   </main>
+</body>
+</html>

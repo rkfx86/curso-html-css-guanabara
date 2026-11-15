@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>Tente abrir esre site em varios dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audios</h1>
+    <p>Vamos reproduzir audios em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/BlackSabath.mp3" type="audio/mpeg">
+        <source src="midia/BlackSabath.ogg" type="audio/ogg">
+        <source src="midia/BlackSabath.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir audios.</p>
+    </audio>
+</body>
+</html>
